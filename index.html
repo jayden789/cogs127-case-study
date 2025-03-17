@@ -10,7 +10,7 @@
 <body>
     <header>
         <h1>Reducing Cognitive Load in Biotech Workflows</h1>
-        <!-- <h2 class="subtitle">A user-centered redesign of <b>Microsoft Dynamics NAV</b> to streamline biotech order management</h2> -->
+        <h2 class="subtitle"></b></h2>
         <nav>
             <ul>
                 <li><a href="#introduction">Introduction</a></li>
@@ -50,9 +50,9 @@
         </ul>
         <p><strong>Key Findings:</strong></p>
         <ul>
-            <li><b>High Learning Curve:</b> New employees struggle to onboard due to a lack of visual aids and guidance.</li>
-            <li><b>Inefficient Task Switching:</b> Users frequently switch between multiple tabs and screens to complete tasks.</li>
-            <li><b>Manual Data Entry Errors:</b> Repetitive manual input leads to mistakes, increasing time spent on corrections.</li>
+            <li><strong>High Learning Curve:</strong> New employees struggle to onboard due to a lack of visual aids and guidance.</li>
+            <li><strong>Inefficient Task Switching:</strong> Users frequently switch between multiple tabs and screens to complete tasks.</li>
+            <li><strong>Manual Data Entry Errors:</strong> Repetitive manual input leads to mistakes, increasing time spent on corrections.</li>
         </ul>
         <p>Based on these findings, we focused on simplifying navigation, improving visual hierarchy, and enhancing automation to reduce user workload.</p>
     </section>
@@ -66,46 +66,54 @@
             <li>Implemented a search and filter function to quickly locate inventory items.</li>
         </ul>
         <p><strong>UI Flow Diagrams:</strong></p>
-        <p><strong>Flow 1:</strong></p>
-        <img src="flow1.png" alt="UI Flow Diagram 1" class="ui-flow-img" height="300px" width="500px">
-        <p><strong>Flow 2:</strong></p>
-        <img src="flow2.png" alt="UI Flow Diagram 2" class="ui-flow-img" height="300px" width="500px">
+        <div class="flow-diagrams">
+            <figure>
+                <img src="flow1.png" alt="UI Flow Diagram 1" class="ui-flow-img">
+                <figcaption>Flow 1: Order Creation Process</figcaption>
+            </figure>
+            <figure>
+                <img src="flow2.png" alt="UI Flow Diagram 2" class="ui-flow-img">
+                <figcaption>Flow 2: Inventory Management Process</figcaption>
+            </figure>
+        </div>
     </section>
     
     <section id="audit">
         <h2>Competitive Audit</h2>
-        <p>We analyzed some competitor platforms to understand their strengths and weaknesses, focusing on how they handle inventory management and work order processing.</p>
-        <table class="audit-table">
-            <thead>
-                <tr>
-                    <th>Competitor</th>
-                    <th>Strengths</th>
-                    <th>Weaknesses</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Microsoft Dynamics NAV</td>
-                    <td>Highly customizable, integrates finance, sales, and inventory</td>
-                    <td>Complex interface, multiple tabs and pop-ups, steep learning curve</td>
-                </tr>
-                <tr>
-                    <td>SAP S/4HANA</td>
-                    <td>Comprehensive ERP, strong logistics integration</td>
-                    <td>Complex interface, steep learning curve</td>
-                </tr>
-                <tr>
-                    <td>Netsuite</td>
-                    <td>Cloud-based, guided workflows, simplified UI</td>
-                    <td>May not be customizable for unique needs</td>
-                </tr>
-                <tr>
-                    <td>Trello</td>
-                    <td>Simple and intuitive interface that is widely adopted</td>
-                    <td>Not designed for complex workflows
-                    </td>
-            </tbody>
-        </table>
+        <p>We analyzed competitor platforms to understand their strengths and weaknesses, focusing on how they handle inventory management and work order processing.</p>
+        <div class="audit-table-container">
+            <table class="audit-table">
+                <thead>
+                    <tr>
+                        <th>Competitor</th>
+                        <th>Strengths</th>
+                        <th>Weaknesses</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Microsoft Dynamics NAV</td>
+                        <td>Highly customizable, integrates finance, sales, and inventory</td>
+                        <td>Complex interface, multiple tabs and pop-ups, steep learning curve</td>
+                    </tr>
+                    <tr>
+                        <td>SAP S/4HANA</td>
+                        <td>Comprehensive ERP, strong logistics integration</td>
+                        <td>Complex interface, steep learning curve</td>
+                    </tr>
+                    <tr>
+                        <td>Netsuite</td>
+                        <td>Cloud-based, guided workflows, simplified UI</td>
+                        <td>May not be customizable for unique needs</td>
+                    </tr>
+                    <tr>
+                        <td>Trello</td>
+                        <td>Simple and intuitive interface that is widely adopted</td>
+                        <td>Not designed for complex workflows</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </section>
     
     <section id="prototype">
@@ -118,20 +126,22 @@
             <li>Improved button visibility and layout adjustments for ease of use.</li>
         </ul>
         <p><strong>Final Screenshots:</strong></p>
-        <img src="p1.png" alt="Work Order UI" class="prototype-img-small">
-        <img src="p2.png" alt="Inventory Management UI" class="prototype-img-small">
-        <img src="p3.png" alt="Search & Filter UI" class="prototype-img-small">
-        <img src="p4.png" alt="Alerts & Notifications UI" class="prototype-img-small">
+        <div class="prototype-grid">
+            <img src="p1.png" alt="Work Order UI" class="prototype-img-small">
+            <img src="p2.png" alt="Inventory Management UI" class="prototype-img-small">
+            <img src="p3.png" alt="Search & Filter UI" class="prototype-img-small">
+            <img src="p4.png" alt="Alerts & Notifications UI" class="prototype-img-small">
+        </div>
     </section>
 
     <section id="conclusion">
         <h2>Conclusion</h2>
-        <p>Working on this project provided us the struggles biotech professionals face with <b>Microsoft Dynamics NAV</b>. We focused on making their workflows smoother and less frustrating through better design.</p>
+        <p>Working on this project provided us insight into the struggles biotech professionals face with <b>Microsoft Dynamics NAV</b>. We focused on making their workflows smoother and less frustrating through better design.</p>
         
         <p><strong>Key Improvements:</strong></p>
         <ul>
             <li>Created workflows to cut down on unnecessary tab switching and manual data entry.</li>
-            <li>Created a cleaner, more intuitive interface with improved visual hierarchy and search features.</li>
+            <li>Designed a cleaner, more intuitive interface with improved visual hierarchy and search features.</li>
             <li>Added automation to reduce errors and make order management more efficient.</li>
         </ul>
     
@@ -146,9 +156,7 @@
             <li>Explore ways to further automate repetitive tasks and reduce manual effort.</li>
             <li>Consider integrating AI-driven guidance to help users complete complex workflows more efficiently.</li>
         </ul>
-
     </section>
-    
     
     <footer>
         <p>&copy; 2025 COGS 127 Case Study</p>

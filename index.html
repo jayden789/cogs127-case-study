@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reducing Cognitive Load in Biotech Workflows | COGS 127 UX Case Study</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Reducing Cognitive Load in Biotech Workflows</h1>
+        <!-- <h2 class="subtitle">A user-centered redesign of <b>Microsoft Dynamics NAV</b> to streamline biotech order management</h2> -->
+        <nav>
+            <ul>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#problem">Problem Statement</a></li>
+                <li><a href="#research">User Research</a></li>
+                <li><a href="#design">Design Process</a></li>
+                <li><a href="#audit">Competitive Audit</a></li>
+                <li><a href="#prototype">Final Prototype</a></li>
+                <li><a href="#conclusion">Conclusion</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>This case study explores the challenges biotech professionals face when using <b>Microsoft Dynamics NAV</b> for work order and inventory management. Our team focused on identifying pain points in the workflow and designing solutions to improve efficiency and usability.</p>
+        <p>BioLegend, a biotech company specializing in manufacturing and distributing biomedical research reagents, relies on software like <b>Microsoft Dynamics NAV</b> to track inventory, manage orders, and ensure accurate shipment of lab products. However, existing systems present a steep learning curve, require excessive manual input, and lead to inefficiencies in critical workflows. Through user research, we identified core usability problems and proposed an improved interface that balances efficiency and clarity.</p>
+    </section>
+    
+    <section id="problem">
+        <h2>Problem Statement</h2>
+        <p><strong>Microsoft Dynamics NAV</strong> is a powerful tool for managing biotech workflows but suffers from usability challenges, particularly for employees who need to navigate complex inventory management and order fulfillment processes.</p>
+        <ul>
+            <li><strong>Fragmented User Flow:</strong> Frequent pop-ups and multiple tabs disrupt workflow, forcing users to memorize product details instead of providing contextual guidance.</li>
+            <li><strong>High Cognitive Load:</strong> Employees must manually track inventory levels and remember lot numbers while switching between screens, leading to errors.</li>
+            <li><strong>Lack of Visual Aids:</strong> The interface is highly text-based, making it difficult for new employees to quickly learn the system and reducing overall efficiency.</li>
+        </ul>
+    </section>
+
+    <section id="research">
+        <h2>User Research</h2>
+        <p>To better understand user pain points, we conducted interviews and surveys with biotech professionals who regularly use <b>Microsoft Dynamics NAV</b>. Our research methods included:</p>
+        <ul>
+            <li><strong>Stakeholder Interviews:</strong> We interviewed lab technicians and inventory managers to uncover workflow inefficiencies.</li>
+            <li><strong>Contextual Inquiry:</strong> Observed users performing daily tasks to identify friction points and bottlenecks.</li>
+            <li><strong>Surveys:</strong> Collected feedback on common pain points and feature requests.</li>
+        </ul>
+        <p><strong>Key Findings:</strong></p>
+        <ul>
+            <li><b>High Learning Curve:</b> New employees struggle to onboard due to a lack of visual aids and guidance.</li>
+            <li><b>Inefficient Task Switching:</b> Users frequently switch between multiple tabs and screens to complete tasks.</li>
+            <li><b>Manual Data Entry Errors:</b> Repetitive manual input leads to mistakes, increasing time spent on corrections.</li>
+        </ul>
+        <p>Based on these findings, we focused on simplifying navigation, improving visual hierarchy, and enhancing automation to reduce user workload.</p>
+    </section>
+    
+    <section id="design">
+        <h2>Design Process & UI Flow</h2>
+        <p>Our design approach focused on streamlining the workflow and reducing cognitive load for users by implementing the following UI enhancements:</p>
+        <ul>
+            <li>Introduced a simplified navigation system to minimize excessive tab switching.</li>
+            <li>Designed work order screens with clear visual hierarchies.</li>
+            <li>Implemented a search and filter function to quickly locate inventory items.</li>
+        </ul>
+        <p><strong>UI Flow Diagrams:</strong></p>
+        <p><strong>Flow 1:</strong></p>
+        <img src="flow1.png" alt="UI Flow Diagram 1" class="ui-flow-img" height="300px" width="500px">
+        <p><strong>Flow 2:</strong></p>
+        <img src="flow2.png" alt="UI Flow Diagram 2" class="ui-flow-img" height="300px" width="500px">
+    </section>
+    
+    <section id="audit">
+        <h2>Competitive Audit</h2>
+        <p>We analyzed some competitor platforms to understand their strengths and weaknesses, focusing on how they handle inventory management and work order processing.</p>
+        <table class="audit-table">
+            <thead>
+                <tr>
+                    <th>Competitor</th>
+                    <th>Strengths</th>
+                    <th>Weaknesses</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Microsoft Dynamics NAV</td>
+                    <td>Highly customizable, integrates finance, sales, and inventory</td>
+                    <td>Complex interface, multiple tabs and pop-ups, steep learning curve</td>
+                </tr>
+                <tr>
+                    <td>SAP S/4HANA</td>
+                    <td>Comprehensive ERP, strong logistics integration</td>
+                    <td>Complex interface, steep learning curve</td>
+                </tr>
+                <tr>
+                    <td>Netsuite</td>
+                    <td>Cloud-based, guided workflows, simplified UI</td>
+                    <td>May not be customizable for unique needs</td>
+                </tr>
+                <tr>
+                    <td>Trello</td>
+                    <td>Simple and intuitive interface that is widely adopted</td>
+                    <td>Not designed for complex workflows
+                    </td>
+            </tbody>
+        </table>
+    </section>
+    
+    <section id="prototype">
+        <h2>Final High-Fidelity Prototype</h2>
+        <p>The refined high-fidelity prototype includes adjustments based on user feedback:</p>
+        <ul>
+            <li>Updated alert icons for better distinction between Low Stock and Expiration Alerts.</li>
+            <li>Realistic product data replaced placeholders for improved accuracy.</li>
+            <li>Better space utilization on work order and inventory screens.</li>
+            <li>Improved button visibility and layout adjustments for ease of use.</li>
+        </ul>
+        <p><strong>Final Screenshots:</strong></p>
+        <img src="p1.png" alt="Work Order UI" class="prototype-img-small">
+        <img src="p2.png" alt="Inventory Management UI" class="prototype-img-small">
+        <img src="p3.png" alt="Search & Filter UI" class="prototype-img-small">
+        <img src="p4.png" alt="Alerts & Notifications UI" class="prototype-img-small">
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 COGS 127 Case Study</p>
+    </footer>
+</body>
+</html>
